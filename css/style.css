@@ -33,6 +33,10 @@ th, td {
 
 tr:nth-child(even) {background-color: #f2f2f2;}
 
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
 
 figcaption {
   padding-top: 0px;
@@ -40,7 +44,6 @@ figcaption {
   font-size: 18pt;
 }
   
-/*tr:nth-child(even) {background-color: #f2f2f2;}*/
 
 * {
     box-sizing: border-box;
