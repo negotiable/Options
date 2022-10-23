@@ -8,94 +8,75 @@
     <hr noshade size="1">
         <div class="row">
             <div class="column c">
-                    <div class="slideshow-container">
-                        <div class="mySlides1">
-                            <figure>
-                            <img class="slide" src="img/1.jpg" style="width:100%">
-                            <figcaption>1. <em>SAME?「青桐に何が起ったか？」 - SAME? “What Happened to the Chinese Parasol Tree?”</em></figcaption>
-                            </figure>
-                        </div>
-                      
-                        <div class="mySlides1">
-                            <figure>
-                            <img class="slide" src="img/2.jpg" style="width:100%">
-                            <figcaption>2. <em>こんなふうにお風呂に入ってます - I am Taking a Bath like this / Feeling High</em></figcaption>
-                            </figure>
-                        </div>
-                    
-                        <div class="mySlides1">
-                            <figure>
-                            <img class="slide" src="img/3.jpg" style="width:100%">
-                            <figcaption>3. <em>Untitled</em> (Bamboo Brooms)</figcaption>
-                            </figure>
-                        </div>
-                        
-                        <div class="mySlides1">
-                            <figure>
-                            <img class="slide" src="img/4.jpg" style="width:100%">
-                            <figcaption>4. <em>ケロイド人間 - Keloid Man</em></figcaption>
-                            </figure>
-                        </div>
-                    
-                        <div class="mySlides1">
-                            <figure>
-                            <img class="slide" src="img/5.jpg" style="width:100%">
-                            <figcaption>5. <em>リンガ正月 - Linga New Year</em></figcaption>
-                            </figure>
-                        </div>
-                    
-                        <div class="mySlides1">
-                            <figure>
-                            <img class="slide" src="img/6.jpg" style="width:100%">
-                            <figcaption>6. <em>One Day</em></figcaption>
-                            </figure>
-                        </div>
-                    
-                        <div class="mySlides1">
-                            <figure>
-                            <img class="slide" src="img/7.jpg" style="width:100%">
-                            <figcaption>7. <em>Untitled</em></figcaption>
-                            </figure>
-                        </div>
-                    
-                        <div class="mySlides1">
-                            <figure>
-                            <img class="slide" src="img/8.jpg" style="width:100%">
-                            <figcaption>8. <em>ロックンロール大根タワーI - Rock’n’roll Radish Tower I</em></figcaption>
-                            </figure>
-                        </div>
-                    
-                        <div class="mySlides1">
-                            <figure>
-                            <img class="slide" src="img/9.jpg" style="width:100%">
-                            <figcaption>9. <em>蓮一色立華 - Rikka of Lotus</em></figcaption>
-                            </figure>
-                        </div>
-                    
-                        <div class="mySlides1">
-                            <figure>
-                            <img class="slide" src="img/10.jpg" style="width:100%">
-                            <figcaption>10. <em>Untitled</em> (Steering Wheel Cover)</figcaption>
-                            </figure>
-                        </div>
-                    
-                        <div class="mySlides1">
-                            <figure>
-                            <img class="slide" src="img/11.jpg" style="width:100%">
-                            <figcaption>11. <em>O氏の朝食 - Mr. O’s Breakfast</em></figcaption>
-                            </figure>
-                        </div>
-                    
-                        <div class="mySlides1">
-                            <figure>
-                            <img class="slide" src="img/12.jpg" style="width:100%">
-                            <figcaption>12. <em>ぼたんまぼろし - Peony Illusion</em></figcaption>
-                            </figure>
-                        </div>
-                      
-                        <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
-                        <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
-                    </div>
+                <h3>Preview</h3>
+                    <img id="image" src="img/1.jpg" width="100%" /> <br />
+                    <select id="imgList" style="width:100%;max-width:90%;">
+                        <option value="valueOne">1. <em>SAME?「青桐に何が起ったか？」 - SAME? “What Happened to the Chinese Parasol Tree?”</em></option>
+                        <option value="valueTwo">2. <em>こんなふうにお風呂に入ってます - I am Taking a Bath like this / Feeling High</em></option>
+                        <option value="valueThree">3. <em>Untitled</em> (Bamboo Brooms)</option>
+                        <option value="valueFour">4. <em>ケロイド人間 - Keloid Man</em></option>
+                        <option value="valueFive">5. <em>リンガ正月 - Linga New Year</em></option>
+                        <option value="valueSix">6. <em>One Day</em></option>
+                        <option value="valueSeven">7. <em>Untitled</em></option>
+                        <option value="valueEight">8. <em>ロックンロール大根タワーI - Rock’n’roll Radish Tower I</em></option>
+                        <option value="valueNine">9. <em>蓮一色立華 - Rikka of Lotus</em></option>
+                        <option value="valueTen">10. <em>Untitled</em> (Steering Wheel Cover)</option>
+                        <option value="valueEleven">11. <em>O氏の朝食 - Mr. O’s Breakfast</em></option>
+                        <option value="valueTwelve">12. <em>ぼたんまぼろし - Peony Illusion</em></option>
+                    </select>
+                    <p class="b">Make selection from list to preview</p>
+                    <script>
+
+                    var lookupValues = {
+                    'valueOne': {
+                        'img':'img/1.jpg',
+                    },
+                    'valueTwo': {
+                        'img':'img/2.jpg',
+                    },
+                    'valueThree': {
+                        'img':'img/3.jpg',
+                    },
+                    'valueFour': {
+                        'img':'img/4.jpg',
+                    },
+                    'valueFive': {
+                        'img':'img/5.jpg',
+                    },
+                    'valueSix': {
+                        'img':'img/6.jpg',
+                    },
+                    'valueSeven': {
+                        'img':'img/7.jpg',
+                    },
+                    'valueEight': {
+                        'img':'img/8.jpg',
+                    },
+                    'valueNine': {
+                        'img':'img/9.jpg',
+                    },
+                    'valueTen': {
+                        'img':'img/10.jpg',
+                    },
+                    'valueEleven': {
+                        'img':'img/11.jpg',
+                    },
+                    'valueTwelve': {
+                        'img':'img/12.jpg',
+                    }
+                    };
+
+                    function setClass() {
+                        var img = document.getElementById("image");
+                        var fillText = document.getElementById("fillText");
+                        // get the lookup values with a key matching this.value
+                        var values = lookupValues[this.value];
+                        img.src = values['img']; // the 'img' value
+                        fillText.innerHTML = values['src']; // the 'src' value
+                        return false;
+                    }
+                    document.getElementById("imgList").onchange = setClass;
+                    </script>
             </div>
             <div class="column c">
                 <br>
