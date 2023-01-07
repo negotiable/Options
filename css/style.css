@@ -123,6 +123,10 @@ img.slide {vertical-align: middle;}
   height: auto;
 }
 
+.cutout {
+  padding: 10px;
+}
+
 .blinking{
     animation:blinkingText 1.2s infinite;
 }
