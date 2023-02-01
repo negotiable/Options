@@ -33,11 +33,6 @@ th, td {
 
 tr:nth-child(even) {background-color: #f2f2f2;}
 
-.responsive {
-  max-width: 100%;
-  height: auto;
-}
-
 figcaption {
   padding-top: 0px;
   font-family: Arial;
