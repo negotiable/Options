@@ -9,7 +9,18 @@ h1.b {
   padding-right: 50px;
 }
 
-p.b, ul, ol, li {
+h2 {
+  padding: 20px;
+
+}
+
+p.b, ol, li {
+    font-family: Arial;
+    font-size: 12pt;
+    padding: 20px;
+}
+
+ul {
     font-family: Arial;
     font-size: 12pt;
 }
@@ -42,6 +53,15 @@ figcaption {
   font-family: Arial;
   font-size: 16pt;
 }
+
+select, option {
+  font-family: sans-serif;
+  font-size: 12pt;
+  background-color: white;
+  border: 1px solid lightgrey;
+  border-radius: 4px;
+  padding: 5px;
+}
   
 
 * {
@@ -61,16 +81,19 @@ figcaption {
 .column.b {
     float: left;
     width: 50%;
-    padding: 10px;
+    padding: 20px;
 }
 
 .column.c {
   float: left;
   width: 33.33%;
-  padding-right: 50px;
-  padding-left: 40px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 20px;
+}
+
+.column.d {
+  float: left;
+  width: 66.66%;
+  padding: 20px;
 }
 
 .row:after {
@@ -80,7 +103,7 @@ figcaption {
 }
   
   @media screen and (max-width: 600px) {
-    .column, .column.b, .column.c {
+    .column, .column.b, .column.c, .column.d {
       width: 100%;
   }
 }
@@ -89,15 +112,4 @@ figcaption {
   width: 100%;
   max-width: 400px;
   height: auto;
-}
-
-.blinking{
-    animation:blinkingText 1.2s infinite;
-}
-@keyframes blinkingText{
-    0%{     color: #000;    }
-    49%{    color: #000; }
-    60%{    color: transparent; }
-    99%{    color: transparent; }
-    100%{   color: #000;    }
 }
