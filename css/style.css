@@ -14,10 +14,7 @@ p.b, ul, ol, li {
     font-size: 12pt;
 }
 
-blockquote {
-    font-family:'Lucida Sans';
-    font-size: 12pt;
-}
+
 
 table {
     border-collapse: collapse;
