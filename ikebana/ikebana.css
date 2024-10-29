@@ -1,5 +1,6 @@
 h3 {
   font-family:Arial;
+  padding: 20px;
 }
 
 h1.b {
@@ -17,7 +18,7 @@ h2 {
 p.b, ol, li {
     font-family: Arial;
     font-size: 12pt;
-    padding: 20px;
+    padding: 10px;
 }
 
 ul {
@@ -44,14 +45,20 @@ th, td {
 tr:hover {background-color: lightblue;}
 
 .responsive {
-  max-width: 100%;
+  width: 100%;
+  max-width: 200px;
   height: auto;
 }
 
+figure {
+  border: 1px #cccccc solid;
+  padding: 5px;
+  margin: 1em;
+  text-align: center;
+}
+
 figcaption {
-  padding-top: 0px;
-  font-family: Arial;
-  font-size: 16pt;
+  text-align: left;
 }
 
 select, option {
@@ -72,10 +79,7 @@ select, option {
 .column {
     float: left;
     width: 25%;
-    padding-right: 0px;
-    padding-left: 0px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding: 0px;
 }
 
 .column.b {
