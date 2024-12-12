@@ -87,10 +87,19 @@ figcaption {
 }
   
   @media screen and (max-width: 900px) {
-    .column, .column.b, .column.c, .column.d {
+    .column.a {
       width: 100%;
+    }
+    .column.b {
+      width: 100%;
+    }
+    .column.c {
+      width: 100%;
+    }
+    .column.d {
+      width: 100%;
+    }
   }
-}
 
 .responsive {
   width: 100%;
