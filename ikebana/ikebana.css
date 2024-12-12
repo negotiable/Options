@@ -1,24 +1,28 @@
 h3 {
-  font-family:Arial;
+  font-family:'Public Sans';
   padding: 20px;
 }
 
 h1.b {
-  font-family:Arial;
+  font-family:'Public Sans';
   padding-top: 10px;
   padding-left: 20px;
   padding-right: 50px;
 }
 
 h2 {
+  font-family:'Public Sans';
   padding: 20px;
-
 }
 
 p.b, ol, li {
-    font-family: Arial;
+    font-family:'Pblic Sans';
     font-size: 12pt;
     padding: 10px;
+}
+
+p, p.b, h1, h2, h3, h4, figcaption, body {
+  font-family:'Public Sans';
 }
 
 ul {

@@ -9,8 +9,17 @@ h1.b {
   padding-right: 50px;
 }
 
+p {
+  font-family:'Public Sans';
+}
+
 p.b, ul, ol, li {
   font-size: 18px;
+  font-family:'Public Sans';
+}
+
+body {
+  font-family:'Public Sans';
 }
 
 
