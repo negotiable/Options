@@ -111,6 +111,9 @@ select, option {
 }
   
   @media screen and (max-width: 900px) {
+    .column {
+      width: 100%;
+    }
     .column.a {
       width: 100%;
     }
