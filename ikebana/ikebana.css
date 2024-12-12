@@ -110,7 +110,7 @@ select, option {
     clear: both;
 }
   
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 900px) {
     .column, .column.b, .column.c, .column.d {
       width: 100%;
   }
