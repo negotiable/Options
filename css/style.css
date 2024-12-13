@@ -13,7 +13,7 @@ p {
   font-family:'Public Sans';
 }
 
-p.b, ul, ol, li {
+p.b, ul, ol, li, button, form, input {
   font-size: normal;
   font-family:'Public Sans';
 }
