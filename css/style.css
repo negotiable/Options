@@ -14,7 +14,7 @@ p {
 }
 
 p.b, ul, ol, li {
-  font-size: 18px;
+  font-size: normal;
   font-family:'Public Sans';
 }
 
