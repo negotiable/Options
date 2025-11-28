@@ -1,3 +1,5 @@
+
+
 h3 {
   font-family:'Public Sans';
   padding: 5px 20px;
@@ -59,8 +61,9 @@ figure img {
 }
 
 figcaption {
+  font-size: 10pt;
   text-align: left;
-  padding-top: 10px;
+  padding-top: 0px;
   margin-top: auto;
 }
 
@@ -84,7 +87,7 @@ figcaption {
 
 .row.image-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     gap: 15px;
     margin-bottom: 20px;
 }
